@@ -3653,8 +3653,14 @@ input, select, textarea {
 
 
 
+/* стили для видео */
+@media screen and (max-width: 980px) {
 
+}
 
+.main_video_1 {
+	height: 30vw !important;
+}
 
 
 
