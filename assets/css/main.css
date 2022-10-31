@@ -3661,6 +3661,11 @@ input, select, textarea {
 .main_video_1 {
 	height: 30vh;
 }
+@media screen and (min-width: 100px) {
+	.main_video_1 {
+		height: 50vh;
+	}
+}
 
 
 
