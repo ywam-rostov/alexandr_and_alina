@@ -3524,7 +3524,7 @@ input, select, textarea {
 @media screen and (min-width: 980px) {
 	.learning_dts {
 		margin-top: 120px;
-		margin-bottom: 120px;
+		/* margin-bottom: 120px; */
 	}
 }
 
