@@ -3535,7 +3535,7 @@ input, select, textarea {
 	}
 	/* qr_code for support */
 	.qr_code_for_desktop {
-		display: none;
+		/* display: none; */
 	}
 }
 
