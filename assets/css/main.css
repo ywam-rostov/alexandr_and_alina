@@ -3550,6 +3550,31 @@ input, select, textarea {
 
 
 
+#one {
+	padding: 0 !important;
+}
+#one p {
+	padding-right: 16px !important;
+}
+
+.main_div_1 {
+	padding-right: 0;
+	margin-right: 0;
+}
+@media screen and (max-width: 996px) {
+	.main_div_1 p, .main_div_1 ul {
+		padding-left: 16px !important;
+		padding-right: 16px !important;
+	}
+}
+
+
+
+
+
+
+
+
 /* zoom photo */
 #myImg {
     border-radius: 5px;
