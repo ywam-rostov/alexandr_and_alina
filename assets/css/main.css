@@ -3694,6 +3694,55 @@ input, select, textarea {
 
 
 
+/* кнопка показать еще */
+.show_more {
+	outline: none;
+}
+.button_show_more {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.center_button {
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 740px) {
+	.button_copy {
+		margin-bottom: 60px;
+	}
+}
+
+.button_copy {
+	padding: 0 13px;
+	margin-left: 15px;
+	margin-top: -23px;
+}
+
+.wrapper_for_number_wallet {
+	display: flex;
+	justify-content: center;
+}
+@media screen and (max-width: 400px) {
+	.wrapper_for_number_wallet {
+		display: block;
+	}
+	.button_copy {
+		margin-top: 10px;
+	}
+}
+
+.button_copy {
+	margin-bottom: 0;
+}
+
+
+
+* {
+	scroll-behavior: smooth;
+}
+
 
 
 

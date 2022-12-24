@@ -26,3 +26,26 @@
 		$('.scrolly').scrolly();
 
 })(jQuery);
+
+// Кнопка_Показать еще_на странице_Галерея работ
+$(".section_show_more").each(function() {
+		let more = $(this).find(".show_more");
+		let hide = $(this).find(".hide_content");
+		hide.hide();
+		more.click(function() {
+				hide.slideToggle();
+				more.text(more.text() == "Скрыть" ? "Показать еще" : "Скрыть");
+		});
+});
+
+
+// copy text button
+$('#copy').click(function() {
+		var $temp = $("<input>");
+		$("body").append($temp);
+		$temp.val($('#text_for_copy').text()).select();
+		document.execCommand("copy");
+		$temp.remove();
+
+		// $(this).text('');
+});
